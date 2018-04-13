@@ -1,0 +1,86 @@
+/* nanoscrollbar */
+.nano .pane   { background: #888; }
+.nano .slider { background: #111; }
+
+body {
+    /* Override bootstrap properties */
+    background-color: #374a5d !important;
+    border: 0 !important;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1060px;
+    min-height: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+#header{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.task-list{
+    width: 250px;
+    float: left;
+    margin: 0 5px;
+    background-color: #b79292;
+    min-height: 340px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.task-list input, .task-list textarea{
+    width: 240px;
+    margin: 1px 5px;
+}
+
+.task-list input{
+    height: 30px;
+}
+
+.task-task{
+    border-radius: 20px;
+    background-color: #fff;
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    font-family: Helvetica;
+}
+
+.task-list input[type="button"]{
+    width: 200px;
+    margin: 10px;
+}
+
+.task-task > .task-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.task-task > .task-date{
+    font-size: small;
+    font-style: italic;
+}
+
+.task-task > .task-description{
+    font-size: medium;
+}
+
+h3{
+    text-align: center;
+}
+
+#delete-div{
+    display: none;
+    background-color: #f21f1f;
+    border: 3px dotted #000;
+    margin: 10px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
